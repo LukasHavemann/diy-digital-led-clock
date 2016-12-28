@@ -1,7 +1,7 @@
 <html>
 <head>
   <title>DIY digital LED Clock</title>
-
+  <meta charset="utf-8">
   <style type="text/css">
     /*
 This document has been created with Marked.app <http://marked2app.com>, Copyright 2013 Brett Terpstra
@@ -323,13 +323,21 @@ body {
         .inverted #wrapper table tbody tr:nth-child(odd) {
           background-color: rgba(255, 255, 255, 0.1); } }
 
-    #wraper{
-      width:80%;
+    /** 
+     * Custom Styles
+     */
+    #wraper {
+      width: 80%;
     }
 
-    img{
+    img {
       padding: 5px;
     }
+
+    .step {
+      margin-top: 25px;
+    }
+
   </style>
 </head>
 <body>
@@ -337,55 +345,72 @@ body {
     <h1>DIY Digital LED Clock</h1>
     <h2>bebilderte Anleitung für den Zusammenbau</h2>
 
-    <p>Die Bauteile können in beliebiger Reihenfolge festgelötet werden. Lediglich die Batterie sollte ganz zum Schluss eingebaut werden. Es empfiehlt sich mit den kleineren Teilen anzufangen.</p>
+    <div class="step">
+      <p> Die Bauteile können in beliebiger Reihenfolge festgelötet werden. Lediglich die Batterie sollte ganz zum Schluss eingebaut werden. Es empfiehlt sich mit den kleineren Teilen anzufangen.</p>
+    </div>
 
-    <p>
-      Übersicht aller Teile
+    <div class="step">
+      <p>Übersicht aller Teile</p>
       <img src="images/PC090717.JPG" alt="Übersicht aller Teile">
-    </p>
+    </div>
+  
+    <div class="step">
+      <p> Im Bausatz sind zwei verschiedene Widerstände vorhanden. </p>
+      <img src="images/PC090734.JPG" width="49.5%">
+      <img src="images/PC090746.JPG" width="49.5%">
+    </div>
 
-    <p>
-      Im Bausatz sind zwei verschiedene Widerstände vorhanden. 
-      
-      <img src="images/PC090734.JPG">
-      <img src="images/PC090736.JPG">
-      <img src="images/PC090740.JPG">
-      <img src="images/PC090741.JPG">
-      <img src="images/PC090744.JPG">
-      <img src="images/PC090746.JPG">
-      <img src="images/PC090747.JPG">
-      <img src="images/PC090750.JPG">
+    <div class="step">
+      <p>Widerstände verlöten</p>
+      <img src="images/PC090736.JPG" width="33.1%">
+      <img src="images/PC090740.JPG" width="33.1%">
+      <img src="images/PC090741.JPG" width="33.1%">
+
       <img src="images/PC090751.JPG">
-      <img src="images/PC090755.JPG">
+    </div>
+
+    <div class="step">
+      <p>Transistoren verlöten</p>
+      <img src="images/PC090747.JPG">
+    </div>
+
+    <div class="step">
+      <p>Kondensatoren verlöten. Auf den Kondentsatoren ist die Kapazität angegeben.</p>
+      <img src="images/PC090750.JPG">
+    </div>
+
+    <div class="step">
+      <p>Photosensor und Widerstand verlöten.</p>
+      <img src="images/PC090755.JPG" width="49.5%">
+      <img src="images/PC090759.JPG" width="49.5%">
+    </div>
+
+    <div class="step">
+      <p>Beim Einbau des Summers ist auf die Polung zu achten. Der längere Draht ist die der Plus-Pol.</p>
+      <img src="images/PC090765.JPG">
+    </div>
+
+    <div class="step">
+      <p>Beim Einbau des Oszillator ist die Polung egal.</p>
       <img src="images/PC090757.JPG">
-      <img src="images/PC090759.JPG">
-      <img src="images/PC090762.JPG">
-      <img src="images/PC090764.JPG">
-      <img src="images/PC090775.JPG">
+    </div>
+  
+    <div class="step">  
+      <p>Beim Einbau des Sockel für die ICs <i>(engl. integrated circuit)</i> ist darauf zu achten das die Einkerbung an der richtigen Stelle ist.</p>
+      <img src="images/PC090762.JPG" width="49.5%">
+      <img src="images/PC090764.JPG" width="49.5%">
+    </div>
+
+
+    <div class="step">  
+      <p>Die fertig gelötete Platine von oben. Die beiden schwarzen Sockel dienen zur Umprogrammierung der ICs. Die beiden Sockel sind nicht im Bausatz vorhanden.</p>
       <img src="images/PC090776.JPG">
-    </p>
+    </div>
 
-    <p>
-      Beim Einbau des Summers ist auf die Polung zu achten. Der längere Draht ist die der Plus-Pol.
-    </p>
-
-    <p>
-      Beim Einbau des Oszillator ist die Polung egal.
-    </p>
-
-
-    <p>
-      Beim Einbau des Oszillator ist die Polung egal.
-    </p>
-
-    <p>
-      Beim Einbau des Sockel für die ICs <i>(engl. integrated circuit)</i> ist darauf zu achten das die Einkerbung an der richtigen Stelle ist.
-    </p>
-
-    <p>
-      
-
-    </p>
+    <div class="step">  
+      <p>Die fertige Uhr von Oben.</p>
+      <img src="images/PC090775.JPG">
+    </div>
   </div>
 </body>
 </html>
